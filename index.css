@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(169, 220, 213);
+}
+
+/* IDs are referenced with hashtags (#) 
+classes are referenced with dots. classes = periods
+elements are referenced just by their name 
+(body, div, h1, p) */
+
+h1{
+    font-family: monospace;
+    color: rgb(48, 48, 48);
+}
+
+#canvas {
+    background-color: rgb(221, 190, 195);
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    /* display: grid;
+    grid-template-columns: repeat(20 / 1fr);
+    grid-template-rows: repeat(20 / 1fr); */
+}
+
+#pallet {
+    border: 1px solid black;
+    margin: auto;
+    height: 50px;
+    width: 450px;
+    display: flex;
+    flex-flow: row;
+}
+
+#selected {
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(216, 207, 209);
+}
